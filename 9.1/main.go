@@ -47,7 +47,7 @@ func main() {
 	var cpu = []string{"Intel Core i3 10100F", "Intel Core i5 10400F", "Intel Core i7 10700K", "Intel Core i9 10900K", "AMD Ryzen 3 3100", "AMD Ryzen 5 3600", "AMD Ryzen 7 3700X", "AMD Ryzen 9 3900X"}
 	fmt.Printf("CPU: %v\n", cpu) //print zwykle
 
-	sort.Strings(cpu) //sortujemy slice cpu w porzadku alfabetycznym, funkcja sort.Strings sortuje slice typu string
+	sort.Strings(cpu)
 	fmt.Printf("CPU posortowane alfabetycznie: %v\n", cpu)
 
 }
